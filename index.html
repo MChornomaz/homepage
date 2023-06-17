@@ -1,130 +1,200 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/798dc722ae.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <title>Résumé</title>
 </head>
 
 <body>
     <main>
-        <div class="resume">
-            <div class="container">
-                <div class="resume__block">
-                    <h1 class="contact-info__header">Bulka</h1>
-                    <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
+        <div class="container">
+            <div class="title">
+                <h1>Maksym Chornomaz</h1>
+                <h2>Web developer</h2>
+            </div>
+            <div class="main-info">
+                <div class="contact">
+                    <div>
+                        <a href='#' class="contact-link">
+                            <i class="fa-solid fa-location-dot fa-xl"></i>
+                            <span class="contact-text">Kiev, Ukraine</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="tel:+380673199941" class="contact-link">
+                            <i class="fa-solid fa-phone fa-xl"></i>
+                            <span class="contact-text">+380673199941</span></a>
+                    </div>
+                    <div>
+                        <a href="mailto:chornomaz.maksym@gmail.com" class="contact-link">
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                            <span class="contact-text">chornomaz.maksym@gmail.com</span></a>
+                    </div>
+                </div>
 
-                    <div class="contact_info_container fh">
-                        <div class="contact-info__block">
-                            <a href="" rel="author" class="contact-info__item">
-                                <div class="contact-info__item-icon-wrapper">
-                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 384 512">
-                                        <path
-                                            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <span>Lviv, Ukraine</span>
-                            </a>
+                <div class="avatar">
+                    <img class="avatar-photo" src="assets/avatar.jpg" alt="Awsome avatar">
+                </div>
 
-                        </div>
-                        <div class="contact-info__block contact-info__block--center">
-                            <img class="contact-info__avatar" src="assets/bulka.jpg" alt="Avatar">
-                        </div>
-                        <div class="contact-info__block">
-                            <a href="https://ua.linkedin.com/company/binary-studio_241166" rel="author"
-                                class="contact-info__item">
-                                <div class="contact-info__item-icon-wrapper">
-                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512">
-                                        <path
-                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <span>binary-studio</span>
-                            </a>
-                        </div>
+                <div class="social">
+                    <div>
+                        <a href="https://www.facebook.com/maxym.chornomaz" rel="author" class="contact-link">
+                            <i class="fa-brands fa-facebook fa-xl"></i>
+                            <span class="contact-text">Maxym Chornomaz</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/max_chornomaz" rel="author" class="contact-link">
+                            <i class="fa-brands fa-instagram fa-xl"></i>
+
+                            <span class="contact-text">max_chornomaz</span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="https://t.me/maxymC" rel="author" class="contact-link">
+                            <i class="fa-brands fa-telegram fa-xl"></i>
+
+                            <span class="contact-text">maxymC</span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="resume__block">
-                    <div class="intro">
-                        <div class="intro__icon-wrapper">
-                            <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                <path
-                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
-                                </path>
-                            </svg>
-                        </div>
-                        <p class="intro_text">Meow.
-                            I am a Binary Studio cat. Still got 7 lives. Work in IT, Full Stack Evil,
-                            all I do is sleep and try to help out hoomans with their projects whenever
-                            they need me.
-                        </p>
-                    </div>
-                </div>
+
+            <div class="about ">
+                <h2 class="title">About</h2>
+                <p class="about-text">Hi, I'm 29 years old and I'm studying web development.
+                    My motto is: "Life suffocates without a purpose." I am a purposeful and enthusiastic person,
+                    who wants to become a good specialist.
+                    Every day I wake up and wonder if I'm better than yesterday.</p>
             </div>
-            <div class="container">
-                <div class="resume__block">
-                    <div class="skills">
-                        <h3 class="skills__header">Skills</h3>
-                        <p class="skills__text">Sleep, eat, more sleep, meow, mrrr, purr. </p>
-                    </div>
+            <div class="main-block">
+                <div class="biography">
+                    <h2>Biography</h2>
+                    <ul class="biography-list">
+                        <li><span>End of 2021 - today</span>
+                            <p>I got interested in IT. I started to study various technologies and directions mainly:
+                                Python, QA, web-development. In the end, I chose web-development in MERN stack and began
+                                to study it diligently.</p>
+                        </li>
+                        <li><span>2018-2021</span>
+                            <p>I started a business in the field of apartment and commercial premises renovation. It was
+                                quite an interesting experience. </p>
+                        </li>
+                        <li><span>2016-2018</span>
+                            <p>
+                                During this period, I worked in Kyiv in various positions: call center, investment
+                                analyst, investment consultant, realtor, b2b sales manager and, finally, a builder.</p>
+                        </li>
+                        <li><span>2015</span>
+                            <p>It was a year of travel abroad. I spend about 3 months in Poland, making pizza &#127829;,
+                                then traveled around Europe, working not quite legally in various positions. </p>
+                        </li>
+                        <li><span>2012-2014</span>
+                            <p>I started working as an accountant. It was a good period of calculations, taxes and some
+                                interesting financial frauds.</p>
+                        </li>
+                        <li><span>2012</span>
+                            <p>This year I decided that I was fed up with studying the ancient program and boring
+                                subjects at the university, I said to myself "I need a break"</p>
+                        </li>
+                        <li><span>2011</span>
+                            <p>At that time, I decided that I needed a job and started working in some Japanese
+                                restaurant. And YES, I really know how to cook sushi and some other Japanese dishes.
+                                &#x1f61c;</p>
+                        </li>
+                        <li><span>2010</span>
+                            <p>It was a time of great change. Finally I finished school. My grades were not bad, but 3 -
+                                "9" separated me from getting the gold medal: music, drawing and chemistry. It was a
+                                little sad.
+                                I entered the Kyiv State Economic University named after V. Hetman at the Faculty of
+                                International Economics and Management. </p>
+                        </li>
+                        <li><span>2000-2010</span>
+                            <p>About the school period, I think, everyone can talk for a long time, but due to the fact
+                                that this is a resume, I must glorify myself, so I must admit that I was regularly sent
+                                to almost all city and regional Olympiads, and I even had good results.</p>
+                        </li>
+                        <li><span>2000</span>
+                            <p>It happened, I finally went to school</p>
+                        </li>
+                        <li><span>1996-2000</span>
+                            <p>
+                                It was a real village childhood. During this period, every nettle within a radius of 3
+                                km was destroyed with sticks, every dog ​​was chased, every ball was pierced, 2 bicycles
+                                were broken into rubbish. &#128520; </p>
+                        </li>
+                        <li><span>1996</span>
+                            <p>My parents finally graduated from the university and moved to a small town in the
+                                Vinnitsa region. They had to take with them a two-year-old catastrophe named Maxim, they
+                                had no choice...</p>
+                        </li>
+                        <li><span>1993</span>
+                            <p>I was born in Kharkov. At that time, my parents were studying at the medical university,
+                                and it seems to me that just studying seemed a little boring to them and they urgently
+                                need a child. But they didn't know what was really waiting for them.. </p>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="container">
-                <div class="resume__block">
-                    <div class="main-info fh">
-
-                        <div class="experiences">
-                            <h3 class="experiences__header">Experience</h3>
-                            <div class="experiences__company">
-                                <div class="experiences__company-header">
-                                    <span class="experiences__company-header-durability">For whole my life</span>
-                                    <h3 class="experiences__company-header-name">BinaryStudio</h3>
-                                </div>
-
-                                <div class="experiences__company-project">
-                                    <span class="experiences__company-project-role">Binary Studio Cat</span>
-                                    <h3 class="experiences__company-project-name">Hooman project</h3>
-                                    <ul class="experiences__company-project-responsibilities">
-                                        <li>Supported hoomans</li>
-                                        <li>Slept all the time</li>
-                                        <li>Lied on the keyboard</li>
-                                        <li>Watched my hoomans working</li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="information-block accordion ">
+                    <h2>Experience/Education</h2>
+                    <div class="information-block-item ">
+                        <div class="accordion-item">
+                            <h4 class="accordion-item-trigger">Languages</h4>
+                            <ul class="accordion-item-content languages">
+                                <li>UKRAINIAN</li>
+                                <li>ENGLISH</li>
+                                <li>russian</li>
+                            </ul>
                         </div>
-                        <div class="additional-info fv">
-                            <div class="additional-info fv">
-                                <div class="additional-info__education">
-                                    <h3 class="additional-info__education-header">Education</h3>
-                                    <div class="additional-info__education-university">
-                                        <span class="additional-info__education-university-durability">2021</span>
-                                        <h3 class="additional-info__education-university-speciality">Cat track</h3>
-                                        <p class="additional-info__education-university-name">Binary Studio Academy</p>
-                                    </div>
-                                </div>
+                    </div>
+                    <div class="information-block-item">
+                        <div class="accordion-item">
+                            <h4 class="accordion-item-trigger">Skills</h4>
+                            <ul class="accordion-item-content">
+                                <li>Html, Css, Scss, Sass, Bootstrap, NPM</li>
+                                <li>JavaScript, TypeScript</li>
+                                <li>React, Redux, Redux toolkit, Redux Thunk</li>
+                                <li>NodeJs, Express</li>
+                                <li>MongoDB</li>
+                                <li>OOP, Agile methodologies</li>
+                                <li>Good communications skills</li>
+                                <li>Cook delicious rolls and pizza))) </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="information-block-item">
+                        <div class="accordion-item">
+                            <h4 class="accordion-item-trigger">Education</h4>
+                            <ul class="accordion-item-content">
+                                <li>GOOGLE!!!!!!!!!!</li>
+                                <li>Udemi</li>
+                                <li>Kyiv State Economic University named after V. Hetman <br>
+                                    the Faculty of International Economics and Management</li>
+                                <li>Youtube</li>
+                                <li>Coursera</li>
+                                <li>Prometheus</li>
+                            </ul>
+                        </div>
+                    </div>
 
-                                <div class="additional-info__languages">
-                                    <h3 class="additional-info__languages-header">Languages</h3>
-                                    <p class="additional-info__languages-item">
-                                        Meow dialect
-                                    </p>
-                                    <p class="additional-info__languages-item">
-                                        Ukrainian (understand)
-                                    </p>
-                                    <p class="additional-info__languages-item">
-                                        English (don't understand)
-                                    </p>
-                                </div>
-                            </div>
+                    <div class="information-block-item">
+                        <div class="accordion-item">
+                            <h4 class="accordion-item-trigger">Character</h4>
+                            <p class="accordion-item-content"> modest, honest, confident, curious,<br>
+                                stress-resistant, sociable, cheerful,
+                                sometimes unbearable</p>
+                        </div>
+                    </div>
+                    <div class="information-block-item">
+                        <div class="accordion-item">
+                            <h4 class="accordion-item-trigger">Likes</h4>
+                            <p class="accordion-item-content">ROCK,POP MUSIC, Humor, Play games, read fiction, PIZZA,
+                                tecnologies, good company</p>
                         </div>
                     </div>
 
@@ -132,8 +202,22 @@
                 </div>
             </div>
         </div>
-        </div>
+
     </main>
+    <div class="free-space"></div>
+
+    <script>
+        document.querySelectorAll('.accordion-item-trigger').forEach((item) =>
+            item.addEventListener('click', () => {
+                const parent = item.parentNode;
+
+                parent.classList.toggle('accordion-item-active')
+            })
+        )
+
+
+    </script>
+
 </body>
 
 </html>
